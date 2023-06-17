@@ -1,0 +1,25 @@
+{
+    "name": "continio/simple-markup",
+    "description": "WhatsApp style rich text edit output",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Continio\\SimpleMarkup\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Continio\\Tests\\SimpleMarkup\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Charlie Benjafield",
+            "email": "me@cbenjafield.com"
+        }
+    ],
+    "require-dev": {
+        "phpunit/phpunit": "^10.2"
+    }
+}
